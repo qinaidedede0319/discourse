@@ -81,3 +81,13 @@ def list_strip_punctuation(list):
         j -= 1
 
     return list[i: j+1]
+
+def get_compressed_path(path):
+    list = path.split("-->")
+    temp = []
+    for i in range(len(list)):
+        if i+1 < len(list) and list[i] != list[i+1] :
+            temp.append(list[i])
+        if i+1 == len(list):
+            temp.append(list[i])
+    return "-->".join(temp)

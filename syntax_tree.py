@@ -18,7 +18,6 @@ class Syntax_tree:
             # self.tree = Tree(newick_text, format=1)
 
             try:
-                newick_text = newick_text.encode("utf-8")
                 self.tree = Tree(newick_text, format=1)
             except:
                 self.tree = None
