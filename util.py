@@ -1,5 +1,6 @@
 import string
 from feature import Feature
+from tools.PorterStemmer import PorterStemmer
 
 
 #Singleton，usage: @singleton...
@@ -91,3 +92,28 @@ def get_compressed_path(path):
         if i+1 == len(list):
             temp.append(list[i])
     return "-->".join(temp)
+
+def stem_string(line):
+    if line == "":
+        return ""
+    p = PorterStemmer()
+    word = ""
+    output = ""
+    for c in line:
+        if c.isalpha():
+            word += c.lower()
+        else:
+            if word:
+                output += p.stem(word, 0,len(word)-1)
+                word = ''
+            output += c.lower()
+    if word:
+        output += p.stem(word, 0,len(word)-1)
+    return output
+
+def cross_product(list1, list2):
+    t = []
+    for i in list1:
+        for j in list2:
+            t.append(i * j)
+    return t
