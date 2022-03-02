@@ -1,6 +1,7 @@
 accordingly # adverbial
 additionally # adverbial
 afterward # adverbial
+afterwards # adverbial
 also # adverbial
 alternatively # adverbial
 as a result # adverbial

@@ -272,6 +272,68 @@ def get_sent_clauses(parse_dict, DocID, sent_index):
 
     return clause_list
 
+# [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], [26, 27, 28]]
+def get_sent_clauses_deeper(parse_dict, DocID, sent_index):
+
+    words = [word[0] for word in parse_dict[DocID]["sentences"][sent_index]["words"]]
+
+    clause_indices_list = util.split_sentence_by_punctuation(words)
+
+    # 继续细化，根据语法树， 第一个SBAR
+    parse_tree = parse_dict[DocID]["sentences"][sent_index]["parsetree"].strip()
+    syntax_tree = Syntax_tree(parse_tree)
+
+    if syntax_tree.tree == None:
+        return []
+
+    clause_list = []
+    for clause_indices in clause_indices_list:
+        clause_tree = _get_subtree(syntax_tree, clause_indices)
+        # 层次遍历，
+
+        SBAR_nodes = []
+        for node in clause_tree.tree.traverse(strategy="levelorder"):
+            if node.name == "SBAR":
+                SBAR_nodes.append(node)
+
+        tagged_SBAR_indices = []
+        tagged = set()
+        for SBAR_node in reversed(SBAR_nodes):
+            SBAR_indices = [node.index for node in SBAR_node.get_leaves() if node.index not in tagged]
+            if SBAR_indices == []:
+                continue
+            # 防止SBAR_indices不连续
+            tagged_SBAR_indices.extend(util.get_discontinuous_chunk(sorted(SBAR_indices)))
+            tagged |= set(SBAR_indices)
+
+        # 切分 clause_indices
+        if tagged_SBAR_indices != []:
+
+            # [[2,4,5], [5,6]]
+            tagged_SBAR_indices = list(sorted(tagged_SBAR_indices, key=lambda x: x[0]))
+
+
+            left_set= set(clause_indices)
+            for tagged_indices in tagged_SBAR_indices:
+                left_set -= set(tagged_indices)
+
+            # sort it
+            # [1, 4, 5, 6, 8]
+            left_list = list(sorted(left_set))
+            #  [[1], [4, 5, 6], 8]
+            left_list = util.get_discontinuous_chunk(left_list)
+
+            T = list(sorted(left_list + tagged_SBAR_indices, key=lambda x: x[0]))
+            clause_list.extend(T)
+
+        else:
+            # 没有 SBAR
+            clause_list.append(clause_indices)
+
+    clause_list = list(sorted(clause_list, key=lambda x: x[0]))
+
+    return clause_list
+
 
 def _get_subtree(syntax_tree, clause_indices):
     copy_tree = copy.deepcopy(syntax_tree)

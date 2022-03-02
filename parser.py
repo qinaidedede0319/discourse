@@ -37,8 +37,11 @@ from model_trainer.Implicit_Arg2_extractor.feature_functions \
 
 class DiscourseParser():
     def __init__(self, input_dataset, input_run):
-        self.pdtb_parse = "{}/pdtb_trial_parses.json".format(input_dataset)
-        self.raw_path = "{}/raw_train".format(input_dataset)
+        # self.pdtb_parse = "{}/pdtb_trial_parses.json".format(input_dataset)
+        # self.raw_path = "{}/raw_train".format(input_dataset)
+        self.pdtb_parse = "preprocess/t.json"
+        self.raw_path = "preprocess/t"
+        # self.raw_path = "data/conll15st-trial-data-01-20-15/raw_train"
         self.input_run = input_run
         self.relations = []
         self.explicit_relations = []
@@ -290,14 +293,14 @@ class DiscourseParser():
 
 if __name__ == "__main__":
     
-    # input_dataset = sys.argv[1]
-    # input_run = sys.argv[2]
-    # output_dir = sys.argv[3] 
+    input_dataset = sys.argv[1]
+    input_run = sys.argv[2]
+    output_dir = sys.argv[3] 
 
     '''just test'''
-    input_dataset = "./data/conll15st-trial-data-01-20-15"
-    input_run = None
-    output_dir = "./data/conll15st-trial-data-01-20-15"
+    # input_dataset = "./data/conll15st-trial-data-01-20-15"
+    # input_run = None
+    # output_dir = "./data/conll15st-trial-data-01-20-15"
 
     parser = DiscourseParser(input_dataset, input_run)
     parser.parse()

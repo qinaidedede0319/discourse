@@ -1,0 +1,320 @@
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: but decided not to 
+Arg2: the market recovered yesterday 
+wsj_2201	8	['15']	when
+================================================================================
+Expansion.Alternative.Chosen alternative --> Comparison.Contrast
+Arg1: that the home fans in this Series of the Subway Called BART would have been ecstatic over the proceedings 
+Arg2: they observe them in relative calm 
+wsj_2202	20	['44']	but
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: that the fan who caught it agreed to turn the ball over to him in return for an autograph 
+Arg2: he hit his first career home run last season 
+wsj_2202	32	['10']	when
+================================================================================
+Contingency.Condition --> Temporal.Synchrony
+Arg1: you see every ball tremendously 
+Arg2: you're in the groove 
+wsj_2202	36	['1']	When
+================================================================================
+Contingency.Condition --> Temporal.Synchrony
+Arg1: you never know when you'll get it back 
+Arg2: it goes 
+wsj_2202	44	['1']	When
+================================================================================
+Temporal.Synchrony --> Contingency.Cause.Reason
+Arg1: But per-share profit dropped only 2% to $1.23 a share from $1.26 a share 
+Arg2: the company continued its stock buy-back plan 
+wsj_2203	2	['18']	as
+================================================================================
+Contingency.Cause.Reason --> Temporal.Asynchronous.Precedence
+Arg1: At Jefferies & Co., J. Francis Palamara didn't reach the office until 5:30 a.m 
+Arg2: but he had been up most of the night at home 
+wsj_2205	1	['18']	then
+================================================================================
+Contingency.Condition --> Temporal.Synchrony
+Arg1: they run from you -- they keep changing their prices 
+Arg2: I want to buy 
+wsj_2205	30	['1']	When
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: The MMI has gone better," shouted one trader at about 3:15 London time 
+Arg2: the U.S. Major Markets Index contract suddenly indicated a turnabout 
+wsj_2205	51	['17']	as
+================================================================================
+Comparison.Concession --> Comparison.Contrast
+Arg1: but most investors wanted to see what would happen in New York before acting 
+Arg2: even if Wall Street continues to stabilize the latest blow to investor confidence could inhibit a swift recovery for the Frankfurt exchange 
+wsj_2210	27	['0']	But
+================================================================================
+Contingency.Condition --> Comparison.Concession
+Arg1: the latest blow to investor confidence could inhibit a swift recovery for the Frankfurt exchange 
+Arg2: Wall Street continues to stabilize 
+wsj_2210	27	['2']	if
+================================================================================
+Comparison.Concession --> Comparison.Contrast
+Arg1: it hoped to raise 1.2 billion marks ($642.2 million) by issuing four million shares at 300 marks each 
+Arg2: yesterday's market cropped Dresdner's share price by 33 marks to 309 marks a share, leaving little incentive for investors to subscribe to the standing price unless the market recovers quickly 
+wsj_2210	31	['0']	Yet
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: however, the big boys entered the market, looking for bargains 
+Arg2: Wall Street turned 
+wsj_2210	45	['0']	When
+================================================================================
+Contingency.Condition --> Temporal.Synchrony
+Arg1: to pay no heed 
+Arg2: duty calls 
+wsj_2215	1	['8']	When
+================================================================================
+Contingency.Condition --> Temporal.Asynchronous.Precedence
+Arg1: Were it true that a weak currency paves the way for trade surpluses 
+Arg2: presumably Argentina would be the center of today's global economy 
+wsj_2217	1	['14']	then
+================================================================================
+Expansion.Conjunction --> Comparison.Contrast
+Arg1: Merrill Lynch & Co. 's net income dropped 37% 
+Arg2: Bear Stearns Cos. posted a 7.5% gain in net, and PaineWebber Group Inc. 's profit fell 
+wsj_2219	0	['11']	while
+================================================================================
+Contingency.Condition --> Temporal.Synchrony
+Arg1: Individual investors, investment firms and arbitragers who speculate in the stocks of takeover candidates can suffer liquidity and payment problems 
+Arg2: stocks dive 
+wsj_2221	1	['21']	when
+================================================================================
+Contingency.Cause.Result --> Expansion.Conjunction
+Arg1: additional liquidity would have been provided 
+Arg2: the decline, most probably, would have been less intense 
+wsj_2222	15	['15']	and
+================================================================================
+Expansion.Conjunction --> Comparison.Contrast
+Arg1: About 12% have retired from a full-time job 
+Arg2: 54% were asked to stay on full time 
+wsj_2223	30	['10']	while
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: Since 1984, more companies give sales-loss aid 
+Arg2: many real-estate values depreciated 
+wsj_2223	35	['9']	as
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: Big Board officials were self-congratulatory about how well the day had gone 
+Arg2: it was all over and stocks had staged a huge recovery 
+wsj_2224	1	['0']	When
+================================================================================
+Temporal.Synchrony --> Comparison.Contrast
+Arg1: the volume was still well within the 600 million-share capacity that the exchange has said it can handle daily since beefing up its computers after the October 1987 crash 
+Arg2: reaching blockbuster proportions yesterday 
+wsj_2224	6	['0']	While
+================================================================================
+Temporal.Synchrony --> Comparison.Contrast
+Arg1: customer traffic at chicken restaurants fell 10% in the second quarter 
+Arg2: the overall fast-food customer count was down 2% 
+wsj_2225	2	['23']	while
+================================================================================
+Expansion.Restatement --> Expansion.Conjunction
+Arg1: noting that chlorine is present in all major dishwasher detergents 
+Arg2: Lever Bros. confirms that its Sunlight brand does contain chlorine bleach 
+wsj_2225	38	['0', '1']	In fact
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: soap sales climbed 5% 
+Arg2: bars were neatly stacked on shelves instead of dumped in a wire basket 
+wsj_2225	48	['14']	when
+================================================================================
+Comparison.Concession --> Comparison.Contrast
+Arg1: The continuing series of HUD scandals is a sadly predictable result of pork-barrel politics 
+Arg2: lobbies such as the National Association of Home Builders (NAHB) continue to pressure Capitol Hill for more special-interest spending 
+wsj_2227	1	['0']	Nevertheless
+================================================================================
+Comparison.Contrast --> Comparison.Concession
+Arg1: But the association has proposed no activist legislative program -- comparable to, say, its detailed request for more federal subsidies -- to eliminate counterproductive controls 
+Arg2: the NAHB has suggested actions that states and localities should take to reduce regulatory barriers 
+wsj_2227	24	['1']	while
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: the unfortunate victim replied, "It was a combination of things 
+Arg2: asked "What went wrong? 
+wsj_2229	1	['0']	When
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: Deal stocks led the market down 
+Arg2: they absorbed the heaviest losses 
+wsj_2229	11	['6']	as
+================================================================================
+Comparison.Contrast --> Comparison.Concession
+Arg1: actual legislation would probably impose considerable harm 
+Arg2: the average citizen is probably not harmed too much from Washington's rhetorical war against Wall Street regarding excessive financial leveraging 
+wsj_2229	38	['0']	Although
+================================================================================
+Expansion.Conjunction --> Expansion.Alternative
+Arg1: to distinguish "good debt" from "bad debt 
+Arg2: to draw the line at a particular industry, such as the airlines 
+wsj_2229	39	['15']	or
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: We didn't trade much today 
+Arg2: our policy now is to wait and see 
+wsj_2230	10	['8']	as
+================================================================================
+Contingency.Condition --> Temporal.Synchrony
+Arg1: because they tend to go where the liquidity is 
+Arg2: people want to get out 
+wsj_2230	49	['6']	when
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: Nestor Hinzack, an analyst at brokerage firm Burdett, Buckeridge & Young Ltd., described the market's performance as "sheep-like 
+Arg2: investors fled to bluechip Australian stocks and shunned entrepreneurial companies they perceived as having any takeover premium built into the price 
+wsj_2230	59	['24']	as
+================================================================================
+Comparison.Concession --> Contingency.Condition
+Arg1: it is inconceivable that reductions in a single state could have any impact on what is billed as a global problem 
+Arg2: one buys into the whole greenhouse theory 
+wsj_2231	13	['1']	if
+================================================================================
+Contingency.Cause.Result --> Contingency.Cause.Reason
+Arg1: that the environment is such a mom and apple-pie issue among certain segments of California's population 
+Arg2: almost any collection of anti-scientific, anti-pocketbook nonsense can pass under its rubric 
+wsj_2231	30	['27', '28']	now that
+================================================================================
+Temporal.Synchrony --> Expansion.Conjunction
+Arg1: Spurred by waves of large-scale buying in blue-chip stocks, the Dow Jones Industrial Average rallied yesterday and erased about a half of Friday's 190.58-point plunge, gaining 88.12 to 2657.38 
+Arg2: in a divergence in two of the market's most important indicators, the Dow industrials' sister average, the 20-stock Dow Jones Transportation Average, tumbled 102.06 to 1304.23 -- its second-worst decline next to the 164.78-point fall during the 1987 crash 
+wsj_2232	7	['0']	Meanwhile
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: which each fell more than 20% 
+Arg2: they reopened for trading yesterday 
+wsj_2232	8	['21']	when
+================================================================================
+Temporal.Asynchronous.Succession --> Contingency.Cause.Reason
+Arg1: But then it shot upward 7 1/2 
+Arg2: Goldman, Sachs & Co. stepped in and bought 
+wsj_2232	38	['7']	as
+================================================================================
+Comparison.Contrast --> Comparison.Concession
+Arg1: their performance yesterday was better than during Friday's late-afternoon chaos, according to traders and brokers who work with them 
+Arg2: the Big Board's specialist firms struggled through another highly volatile trading session 
+wsj_2232	64	['0']	Although
+================================================================================
+Contingency.Cause.Result --> Expansion.Conjunction
+Arg1: But yesterday, even with halts in such major blue-chip stocks as Merck, "we expected (the halts) 
+Arg2: it wasn't too bad 
+wsj_2232	66	['21']	and
+================================================================================
+Expansion.Conjunction --> Temporal.Synchrony
+Arg1: Mr. Phelan expressed relief that the market rebounded yesterday 
+Arg2: Peter DaPuzzo, Shearson's head of retail equity trading, praised institutional investors in the OTC market, who were heavy buyers of the Nasdaq's biggest technology issues yesterday amid a flood of selling by other investors 
+wsj_2232	87	['0']	Meanwhile
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: As a practical matter, flights from the West Coast to Hawaii would be covered 
+Arg2: they are under the time limit 
+wsj_2234	5	['15']	as
+================================================================================
+Comparison.Contrast --> Comparison.Concession
+Arg1: the underlying bill was the subject of behind-the-scenes lobbying because of its impact on air transportation and the more mundane, but politically important, projects of members 
+Arg2: the smoking provision has attracted the most public interest 
+wsj_2234	11	['0']	Although
+================================================================================
+Expansion.Restatement --> Expansion.Conjunction
+Arg1: yesterday's modest easing didn't stir much enthusiasm because it had been widely expected 
+Arg2: that the latest easing started last week 
+wsj_2239	14	['0', '1']	In fact
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: bonds prices fell as the stock market regained strength 
+Arg2: the market opened here 
+wsj_2239	35	['0']	When
+================================================================================
+Expansion.Conjunction --> Temporal.Synchrony
+Arg1: Industrial production is expected to have declined 0.2%, according to a consensus of economists surveyed by Dow Jones Capital Markets Report.The August trade deficit is expected to have widened to $9.1 billion from $7.58 billion in July 
+Arg2: agency supply is expected to weigh heavily on the market today when the Federal Home Loan Bank prices a $2.3 billion offering of one-year, three-year, five-year and 10-year maturities 
+wsj_2239	41	['0']	Meanwhile
+================================================================================
+Expansion.Conjunction --> Comparison.Contrast
+Arg1: Britain's 11 3/4% bond due 2003/2007 ended 1 1/8 higher at 111 19/32 to yield 10.12% 
+Arg2: the 11 3/4% notes due 1991 rose 21/32 to 98 26/32 to yield 12.74% 
+wsj_2239	69	['21']	while
+================================================================================
+Temporal.Synchrony --> Contingency.Cause.Reason
+Arg1: but bond prices rapidly turned south 
+Arg2: it became more clear that a repeat of the October 1987 crash wasn't at hand 
+wsj_2239	84	['23']	as
+================================================================================
+Temporal.Synchrony --> Contingency.Condition
+Arg1: The group normally convenes 
+Arg2: a change in the economy's general course seems likely 
+wsj_2253	8	['5']	when
+================================================================================
+Temporal.Synchrony --> Comparison.Contrast
+Arg1: It also rose last Friday 
+Arg2: the stock market sagged 
+wsj_2253	20	['6']	while
+================================================================================
+Temporal.Asynchronous.Succession --> Contingency.Cause.Reason
+Arg1: THE STOCK MARKET AVOIDED a repeat of Black Monday 
+Arg2: prices recovered from an early slide 
+wsj_2256	0	['9']	as
+================================================================================
+Comparison.Contrast --> Expansion.Conjunction
+Arg1: while bond prices plummeted 
+Arg2: Treasury bill rates soared 
+wsj_2256	3	['9']	and
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: Copper fell and showed little rebound through the day 
+Arg2: one of the major supply problems that had been supporting prices appeared to be solved 
+wsj_2265	5	['9']	as
+================================================================================
+Temporal.Synchrony --> Contingency.Cause.Reason
+Arg1: but recovering later 
+Arg2: the stock market strengthened 
+wsj_2265	15	['22']	as
+================================================================================
+Contingency.Cause.Reason --> Expansion.Conjunction
+Arg1: that Friday's stock market drop is what dampened spirits in the petroleum pits yesterday 
+Arg2: after reacting early in the trading day to Friday's plummet, futures prices firmed up again as traders took note of the stock market's partial recovery yesterday 
+wsj_2265	36	['0']	Indeed
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: Futures prices fell and showed little rebound 
+Arg2: one major labor problem that had been underpinning prices appeared to be solved 
+wsj_2265	38	['7']	as
+================================================================================
+Temporal.Synchrony --> Contingency.Cause.Reason
+Arg1: But the recovery in the stock market provided little help for copper 
+Arg2: word spread that a three-month strike at the Highland Valley mine in British Columbia was about over, according to an analyst 
+wsj_2265	41	['12']	as
+================================================================================
+Expansion.Restatement --> Expansion.Conjunction
+Arg1: And many arbitragers were further hurt yesterday when a proposed takeover of AMR Corp., the parent of American Airlines, collapsed 
+Arg2: the Dow Jones Transportation Average plunged 102.06 points, its second-worst drop in history 
+wsj_2276	15	['0']	Indeed
+================================================================================
+Comparison.Contrast --> Comparison.Concession
+Arg1: And the widely disseminated opinion among most market experts that a crash wasn't in store also helped calm investors 
+Arg2: amid all the backslapping and signs of relief over yesterday's events, some market professionals cautioned that there is nothing present in the current market system to prevent another dizzying drop such as Friday's 
+wsj_2276	31	['0']	Still
+================================================================================
+Temporal.Asynchronous.Succession --> Temporal.Synchrony
+Arg1: Traders shouted out 
+Arg2: their Reuters, Quotron and Telerate screens posted an ever-narrowing loss on Wall Street 
+wsj_2276	61	['3']	as
+================================================================================
+Comparison.Concession --> Comparison.Contrast
+Arg1: he remains uneasy 
+Arg2: Mayor Norman found the market's performance Monday reassuring 
+wsj_2276	92	['0']	While
+================================================================================
+Contingency.Cause.Reason --> Temporal.Synchrony
+Arg1: Norway's King Olav V installed a three-party non-Socialist government 
+Arg2: Gro Harlem Brundtland's three-year-old Labor regime relinquished power 
+wsj_2278	31	['10']	as
+================================================================================
+Expansion.Restatement --> Expansion.Conjunction
+Arg1: Blue Arrow blamed the pretax profit drop in the quarter ended July 31 partly on slower earnings growth of non-Manpower units in Britain 
+Arg2: pretax profit slid to #18.49 million in the quarter from #18.98 million a year earlier 
+wsj_2281	24	['0']	Overall

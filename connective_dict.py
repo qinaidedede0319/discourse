@@ -46,7 +46,7 @@ class Connectives_dict():
         self.dict_conn_rightSiblingCtx = util.load_dict_from_file(config.CONNECTIVE_DICT_CONN_RIGHTSIBLINGCTX)
         self.dict_conn_leftSiblingCtx = util.load_dict_from_file(config.CONNECTIVE_DICT_CONN_LEFTSIBLINGCTX)
         self.dict_conn_left_right_SiblingCtx = util.load_dict_from_file(config.CONNECTIVE_DICT_CONN_LEFT_RIGHT_SIBLINGCTX)
-        self.dict_conn_parent_category_Ctx = util.load_dict_from_file(config.CONNECTIVE_DICT_CONN_PARENT_CATEGORY_CTX)
+        self.dict_conn_parent_category_Ctx = util.load_dict_from_file(config.CONNECTIVE_DICT_CONN_PARENT_CATEGORYCTX)
         self.dict_rightSibling_production_rules = util.load_dict_from_file(config.CONNECTIVE_DICT_CONN_RIGHTSIBLING_PRODUCTION_RULES)
 
 

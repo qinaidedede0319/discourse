@@ -119,10 +119,12 @@ class Syntax_tree:
 
 
     def to_newick_format(self, parse_tree):
-        # 替换 parse_tree 中的 ,
+        # 替换 parse_tree 中的 , : ;
 
         parse_tree = parse_tree.replace(",", "*COMMA*")
         parse_tree = parse_tree.replace(":", "*COLON*")
+        parse_tree = parse_tree.replace(";", "*SEMICOLON*")
+
 
         tree_list = self.load_syntax_tree(parse_tree)
         if tree_list == None:

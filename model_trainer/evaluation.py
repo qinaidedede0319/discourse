@@ -1,5 +1,5 @@
 #coding:utf-8
-from confusion_matrix import ConfusionMatrix, Alphabet
+from model_trainer.confusion_matrix import ConfusionMatrix, Alphabet
 
 
 # gold_list = ['no', 'yes', 'no', 'yes', ...]

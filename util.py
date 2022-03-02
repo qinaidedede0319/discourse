@@ -1,6 +1,9 @@
 import string
 from feature import Feature
 from tools.PorterStemmer import PorterStemmer
+from confusion_matrix import ConfusionMatrix
+import os
+
 
 
 #Singleton，usage: @singleton...
@@ -35,6 +38,7 @@ def load_list_from_file(list_file_path):
     list = [line.strip() for line in list_file]
     return list
 
+''' 获取span在sentence中的indices,span在sentence中返回indices,否，返回[[2,3], [6,7]] '''
 def getSpanIndecesInSent(span_tokens, sent_tokens):
     indice = []
     span_length = len(span_tokens); sent_length = len(sent_tokens)
@@ -69,6 +73,41 @@ def write_example_list_to_file(example_list, to_file):
     to_file.write("\n".join([example.content + " # " + example.comment for example in example_list]))
     to_file.close()
 
+def get_mallet_gold_list(file_path):
+    gold_list = []
+    for line in open(file_path):
+        gold = line.strip().split("\t")[0]
+        gold_list.append(gold)
+    return gold_list
+
+def get_mallet_predicted_list(file_path):
+    predicted_dict_list = read_mallet_output(file_path)
+    predicted_list = []
+    for predicted_dict in predicted_dict_list:
+        sort_label = sorted(predicted_dict.items(), key=lambda x: x[1],reverse = True)
+        predicted_list.append(sort_label[0][0])
+    return predicted_list
+
+def read_mallet_output(file_path):
+        predicted_dict_list = []
+        for line in open(file_path):
+            fields = line.rstrip().split("\t")[1:]
+            dict = {}
+            for i in range(len(fields)):
+                if i % 2 == 0:
+                    dict[fields[i]] = float(fields[i+1])
+            predicted_dict_list.append(dict)
+        return predicted_dict_list
+
+# gold_list = ['no', 'yes', 'no', 'yes', ...]
+# predicted_list = ['yes', 'yes', 'no', 'yes', ...]
+def compute_binary_eval_metric(predicted_list, gold_list, binary_alphabet):
+    cm = ConfusionMatrix(binary_alphabet)
+    for (predicted_span, gold_span) in zip( predicted_list, gold_list):
+        cm.add(predicted_span, gold_span)
+    return cm
+
+
 def list_strip_punctuation(list):
     punctuation = """!"#&'*+,-..../:;<=>?@[\]^_`|~""" + "``" + "''"
     i = 0
@@ -82,6 +121,35 @@ def list_strip_punctuation(list):
         j -= 1
 
     return list[i: j+1]
+
+# [1, 2, 44, 5, 6]
+# [[1, 2], [44], [5, 6]]
+def get_discontinuous_chunk(in_list):
+    T = []
+    tmp = []
+    for i in range(len(in_list)):
+        tmp.append(in_list[i])
+        if i == len(in_list) - 1 or in_list[i]+1 != in_list[i+1]:
+            T.append(tmp)
+            tmp = []
+
+    return T
+
+def split_sentence_by_punctuation(words_list):
+    punctuation = "...,:;?!~--"
+    #先按标点符号分
+    clause_indices_list = []
+    temp = []
+    for index, word in enumerate(words_list):
+        if word not in punctuation:
+            temp.append((index, word))
+        if index == len(words_list) - 1 or words_list[index + 1] in punctuation:
+            temp = list_strip_punctuation(temp)
+            if temp:
+                clause_indices_list.append([index for index, word in temp])
+            temp = []
+
+    return clause_indices_list
 
 def get_compressed_path(path):
     list = path.split("-->")
@@ -117,3 +185,8 @@ def cross_product(list1, list2):
         for j in list2:
             t.append(i * j)
     return t
+
+def listdir_no_hidden(path):
+    for f in os.listdir(path):
+        if not f.startswith('.'):
+            yield f

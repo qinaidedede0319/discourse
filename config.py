@@ -4,9 +4,12 @@
 # change the the value of the following two variables
 
 # current working directory.
-CWD = "./"
+# CWD = "./"
+CWD = "/home/hongyi/discourse/discourse_py3/"
 # mallet bin path
 MALLET_PATH = "/home/hongyi/discourse/Mallet-2.0.8RC2"
+MALLET_FILE = CWD +"model/train.mallet"
+SCORER_PATH = CWD + "conll-scorer"
 
 
 
@@ -17,10 +20,14 @@ DEV = "dev"
 TEST = "test"
 
 DATA_PATH = CWD + "data/"
+DEV_CLASSIFIER_OUT_PATH = CWD + "dev_classifier_out"
+
 
 # train path
-TRAIN_PATH = CWD + "data/conll15-st-03-04-15-train/"
-DEV_PATH = CWD + "data/conll15-st-03-04-15-dev/"
+# TRAIN_PATH = CWD + "data/conll15-st-03-04-15-train/"
+# DEV_PATH = CWD + "data/conll15-st-03-04-15-dev/"
+TRAIN_PATH = "/home/hongyi/王建祥-毕业资料整理2017/2015/CoNLL2015/code/conll15st_ECNU_V2/data/conll15-st-03-04-15-train/"
+DEV_PATH = "/home/hongyi/王建祥-毕业资料整理2017/2015/CoNLL2015/code/conll15st_ECNU_V2/data/conll15-st-03-04-15-dev/"
 
 '''train & dev raw text'''
 RAW_TRAIN_PATH = TRAIN_PATH + "raw/"
@@ -31,7 +38,11 @@ CONLL_TRAIN_PATH = TRAIN_PATH + "conll_format/"
 CONLL_DEV_PATH = DEV_PATH + "conll_format/"
 
 ''' train & dev pdtb data '''
-PDTB_ORIGIN_DEV_PATH = DEV_PATH + "pdtb-data_origin.json"
+# PDTB_TRAIN_PATH = TRAIN_PATH + "pdtb-data.json"
+PDTB_TRAIN_PATH = TRAIN_PATH + "relations.json"
+# PDTB_DEV_PATH = DEV_PATH + "pdtb-data.json"
+PDTB_DEV_PATH = DEV_PATH + "relations.json"
+
 
 ''' train & dev parsers '''
 PARSERS_TRAIN_PATH_JSON = TRAIN_PATH + "pdtb-parses.json"
@@ -93,11 +104,15 @@ CONNECTIVE_DICT_PREVPOS_C = CONNECTIVE_DICT_PATH + "prevPOS_C.txt"
 CONNECTIVE_DICT_SELF_CATEGORY_TO_ROOT_PATH = CONNECTIVE_DICT_PATH + "self_category_to_root_path.txt"
 CONNECTIVE_DICT_CPARENT_TO_ROOT_PATH_NODE_NAMES = CONNECTIVE_DICT_PATH + "CParent_to_root_path_node_names_dict.txt"
 CONNECTIVE_DICT_CONN_CONNCTX = CONNECTIVE_DICT_PATH + "conn_connCtx.txt"
+CONNECTIVE_DICT_CONN_CONNLINKEDCTX = CONNECTIVE_DICT_PATH + "conn_connLinkedCtx.txt"
 CONNECTIVE_DICT_CONN_RIGHTSIBLINGCTX = CONNECTIVE_DICT_PATH + "conn_rightsiblingCtx.txt"
+CONNECTIVE_DICT_CONN_RIGHTSIBLINGLINKEDCTX = CONNECTIVE_DICT_PATH + "conn_rightSiblingLinkedCtx.txt"
 CONNECTIVE_DICT_CONN_LEFTSIBLINGCTX = CONNECTIVE_DICT_PATH + "conn_leftsiblingCtx.txt"
+CONNECTIVE_DICT_CONN_LEFTSIBLINGLINKEDCTX = CONNECTIVE_DICT_PATH + "conn_leftSiblingLinkedCtx.txt"
 CONNECTIVE_DICT_CONN_LEFT_RIGHT_SIBLINGCTX = CONNECTIVE_DICT_PATH + "conn_left_right_siblingCtx.txt"
-CONNECTIVE_DICT_CONN_PARENT_CATEGORY_CTX = CONNECTIVE_DICT_PATH + "conn_parent_category_Ctx.txt"
+CONNECTIVE_DICT_CONN_PARENT_CATEGORYCTX = CONNECTIVE_DICT_PATH + "conn_parent_category_Ctx.txt"
 CONNECTIVE_DICT_CONN_RIGHTSIBLING_PRODUCTION_RULES = CONNECTIVE_DICT_PATH + "rightSibling_production_rules.txt"
+CONNECTIVE_DICT_CONN_PARENT_CATEGORYLINKEDCTX = CONNECTIVE_DICT_PATH + "conn_parent_categoryLinkedCtx.txt"
 
 
 
@@ -406,6 +421,7 @@ PICKLE_PATH = DICT_PATH + "pickle/"
 PICKLE_DISC_CONNS_PATH = PICKLE_PATH+"disc_conns.p"
 PICKLE_NON_DISC_CONNS_PATH = PICKLE_PATH+"non_disc_conns.p"
 PICKLE_POLARITY_PATH = PICKLE_PATH+"polairty.p"
+
 
 
 FEATURE_OUTPUT_PATH = CWD + "model_trainer/feature_output/"

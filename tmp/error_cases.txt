@@ -1,0 +1,256 @@
+================================================================================
+gold_1_pred_0
+Today 's Fidelity ad goes a step further , encouraging investors to stay in the market or even to plunge in with Fidelity .
+wsj_2201	20	['16']	or
+================================================================================
+gold_1_pred_0
+Baseball , that game of the long haul , is the quintessential sport of the mean , and the mean ol' law caught up with the San Francisco Giants in the World Series last weekend .
+wsj_2202	2	['17']	and
+================================================================================
+gold_1_pred_0
+And before the opening of trading here yesterday , all eyes were on early trading in Tokyo for a clue as to how widespread the fallout might be .
+wsj_2205	10	['1']	before
+================================================================================
+gold_1_pred_0
+As 2:30 p.m. -- Wall Street 's opening time -- neared , Shearson traders and salesmen traded bets on how low the New York market would open .
+wsj_2205	45	['0']	As
+================================================================================
+gold_1_pred_0
+Supporters of the legislation view the bill as an effort to add stability and certainty to the airline-acquisition process , and to preserve the safety and fitness of the industry .
+wsj_2207	14	['20']	and
+================================================================================
+gold_1_pred_0
+It also would require the acquiring party to notify the transportation secretary and to provide all information relevant to determining the intent of the acquisition .
+wsj_2207	16	['12']	and
+================================================================================
+gold_1_pred_0
+The company 's restructuring includes plans to split into three sectors , to phase out domestic printer manufacturing operations and to sell its New England subsidiary .
+wsj_2209	6	['19']	and
+================================================================================
+gold_1_pred_0
+NCNB raised some $ 1.9 billion in new capital during the quarter to complete the NCNB Texas purchase , and to acquire several small failed thrifts to fill out its regional franchise .
+wsj_2211	30	['19']	and
+================================================================================
+gold_1_pred_0
+Security Pacific 's earnings growth slowed in the third quarter , but the Los Angeles bank holding company was still able to post a 10 % increase in net income because of robust growth in residential real-estate and consumer loans .
+wsj_2211	34	['19']	still
+================================================================================
+gold_1_pred_0
+A spokesman for Dow Jones said he had n't seen the group 's filing , but added , `` obviously Dow Jones disagrees with their conclusions .
+wsj_2213	8	['15']	but
+================================================================================
+gold_1_pred_0
+Also under the agreement , debenture holders will get one million shares of common stock in exchange for $ 7.7 million in debentures and holders of BancOklahoma 's series A preferred stock will receive 1.25 shares of common stock for every share of preferred they own , the company said .
+wsj_2216	5	['23']	and
+================================================================================
+gold_1_pred_0
+Since 1984 , more companies give sales-loss aid , as many real-estate values depreciated , the council says .
+wsj_2223	35	['9']	as
+================================================================================
+gold_1_pred_0
+Says Mr. Dahlen , `` We 'll still be forced to sell items we might not philosophically agree with . ''
+wsj_2225	45	['7']	still
+================================================================================
+gold_1_pred_0
+Any such attempt to distinguish `` good debt '' from `` bad debt , '' or to draw the line at a particular industry , such as the airlines , is likely to blunt the spur that the proper amount of leverage provides both to equity markets and economic efficiency in general .
+wsj_2229	39	['15']	or
+================================================================================
+gold_1_pred_0
+`` Singapore took the hit because when people want to get out , they tend to go where the liquidity is , '' said Elizabeth Hambrecht , a regional analyst with Baring Securities -LRB- Hong Kong -RRB- Ltd .
+wsj_2230	49	['6']	when
+================================================================================
+gold_1_pred_0
+The benchmark 30-year bond , for example rose one point in early Japanese trading in reaction to a quick 600-point drop in the Tokyo stock market .
+wsj_2239	27	['5', '6']	for example
+================================================================================
+gold_1_pred_0
+In contrast , the Commerce Department 's widely followed index of leading indicators , while up in August , has fallen repeatedly since reaching a high early this year .
+wsj_2253	4	['22']	since
+================================================================================
+gold_1_pred_0
+The Columbia economists also have reconstructed how the long leading index would have behaved , had it existed , in 1929 , before the stock market crash in October that ushered in the Great Depression .
+wsj_2253	15	['22']	before
+================================================================================
+gold_1_pred_0
+Omnicare said it expects the division to add `` substantial sales volume and to make a positive contribution to our earnings in 1990 and beyond . ''
+wsj_2259	1	['12']	and
+================================================================================
+gold_1_pred_0
+James Alexander , a Burmah spokesman , said SHV had previously owned `` a little under 5 % '' of Burmah for about two years .
+wsj_2260	1	['10']	previously
+================================================================================
+gold_1_pred_0
+In commodity markets yesterday : PRECIOUS METALS : Futures prices were moderately higher as gold gave up some of its early gains and platinum behaved independently , first falling and then later rising .
+wsj_2265	10	['22']	and
+================================================================================
+gold_1_pred_0
+For one thing , last Friday , precious metals markets closed before the stock market went into its late-in-the-day nose dive , so it could n't react to it .
+wsj_2265	17	['11']	before
+================================================================================
+gold_1_pred_0
+Finally , according to Mr. Cardillo , the impact of the strong dollar should be reflected in reduced exports in the August merchandise trade deficit , when the figures are released today .
+wsj_2265	26	['26']	when
+================================================================================
+gold_1_pred_0
+As previously reported , under the terms of a confidentiality agreement with Dunkin ' Donuts , the partners agreed to keep their offer open until Nov. 1 , and not to acquire any additional shares except through a tender offer expiring on that date .
+wsj_2267	3	['28']	and
+================================================================================
+gold_1_pred_0
+A computer screen displaying 100 blue-chip stocks colors each one red when its price is falling .
+wsj_2276	44	['11']	when
+================================================================================
+gold_1_pred_0
+But shortly before then , some of Wall Street 's sharpest traders say , they sensed a turn .
+wsj_2276	54	['2']	before
+================================================================================
+gold_1_pred_0
+Skipper 's previously turned down a $ 10-a-share proposal from National Pizza and Pizza Hut Inc. questioned whether the purchase would violate National Pizza 's franchise agreements .
+wsj_2277	5	['2']	previously
+================================================================================
+gold_1_pred_0
+Norway 's King Olav V installed a three-party non-Socialist government as Gro Harlem Brundtland 's three-year-old Labor regime relinquished power .
+wsj_2278	31	['10']	as
+================================================================================
+gold_1_pred_0
+The number of U.S. temporary workers fell about 1 % in the 12 months ending Aug. 31 , after sliding nearly 3.5 % in July , said Kidder Peabody 's Mr. Arthur .
+wsj_2281	22	['18']	after
+================================================================================
+gold_0_pred_1
+At first , it seemed as if history might repeat itself .
+wsj_2276	5	['5', '6']	as if
+================================================================================
+gold_0_pred_1
+Overall , more Big Board stocks lost money than gained .
+wsj_2276	13	['0']	Overall
+================================================================================
+gold_0_pred_1
+The Butler , Wis. , manufacturer went public at $ 15.75 a share in August 1987 , and Mr. Sim 's goal then was a $ 29 per-share price by 1992 .
+wsj_2282	9	['22']	then
+================================================================================
+gold_0_pred_1
+Mr. Sim is confident that the drive to dominate certain niche markets will work at Barry Wright as it has at Applied .
+wsj_2282	17	['17']	as
+================================================================================
+gold_0_pred_1
+James Gallagher , a partner at specialist Fowler & Rosenau , said , `` The difference between today and two years ago '' -- `` Terrible Tuesday , '' Oct. 20 , 1987 -- `` is that then we needed a savior to go into the Major Market Index , spend $ 2 million and get the program rally started .
+wsj_2232	59	['37']	then
+================================================================================
+gold_0_pred_1
+That 's also the day of the gubernatorial election .
+wsj_2231	19	['2']	also
+================================================================================
+gold_0_pred_1
+As a practical matter , flights from the West Coast to Hawaii would be covered as they are under the time limit , but the language would exempt longer routes beginning , for example , in Chicago or on the East Coast .
+wsj_2234	5	['32', '33']	for example
+================================================================================
+gold_0_pred_1
+Though smaller in total dollars , the conference agreed to preserve an estimated $ 30.6 million in controversial subsidies to carriers serving rural or isolated airports .
+wsj_2234	21	['0']	Though
+================================================================================
+gold_0_pred_1
+Congress previously cut six airports this year .
+wsj_2234	23	['1']	previously
+================================================================================
+gold_0_pred_1
+If a solution is n't reached by then , she said , the U.S. would have the right to suspend some trade concessions to Canada equivalent in value to the losses suffered by U.S. fish-processing companies in Alaska and the Pacific Northwest .
+wsj_2214	2	['0', '7']	If then
+================================================================================
+gold_0_pred_1
+To spend a carefree , idle day , When duty calls , to pay no heed , To while the precious hours away -- Character is what you need .
+wsj_2215	1	['18']	while
+================================================================================
+gold_0_pred_1
+The Financial Times-Stock Exchange 100 Share Index closed off 70.5 points , at 2163.4 , its high for the day , after having plunged 204.2 points at 12:49 p.m .
+wsj_2210	34	['21']	after
+================================================================================
+gold_0_pred_1
+Our offer is to buy any and all shares tendered at $ 18 a share .
+wsj_2213	9	['6']	and
+================================================================================
+gold_0_pred_1
+Until two years ago , sales of black-and-white film had been declining steadily since the 1960s .
+wsj_2250	11	['0']	Until
+================================================================================
+gold_0_pred_1
+Slated for market by the end of the year , the paper `` could have been introduced a long time ago but the market was n't there then , '' says an Agfa spokesman .
+wsj_2250	19	['27']	then
+================================================================================
+gold_0_pred_1
+`` It seems computers as hobbies have waned , '' says Ian Brightman , Beseler 's chairman and chief executive officer .
+wsj_2250	55	['4']	as
+================================================================================
+gold_0_pred_1
+A leading authority on the business cycle , Mr. Moore also is a member of the Business Cycle Dating Group , the panel of private economists that decides for the government when expansions and recessions begin and end .
+wsj_2253	7	['10']	also
+================================================================================
+gold_0_pred_1
+A leading authority on the business cycle , Mr. Moore also is a member of the Business Cycle Dating Group , the panel of private economists that decides for the government when expansions and recessions begin and end .
+wsj_2253	7	['31']	when
+================================================================================
+gold_0_pred_1
+As recently as 1975 , the stock market -- as reflected in the Standard & Poor 's index of 500 common stocks -- was rated by the National Bureau of Economic Research as the best of the 12 leading indicators that then made up the Commerce index .
+wsj_2253	23	['41']	then
+================================================================================
+gold_0_pred_1
+Skipper 's previously turned down a $ 10-a-share proposal from National Pizza and Pizza Hut Inc. questioned whether the purchase would violate National Pizza 's franchise agreements .
+wsj_2277	5	['12']	and
+================================================================================
+gold_0_pred_1
+`` It was simply overbought , '' he said , and selling by funds that are computer guided helped depress prices .
+wsj_2265	51	['10']	and
+================================================================================
+gold_0_pred_1
+The ceremonies began Friday afternoon when word spread that the UAL buy-out was collapsing .
+wsj_2229	5	['5']	when
+================================================================================
+gold_0_pred_1
+Lots of other entries made up the parade , of course -- notably a surprisingly large increase in producer prices , signalling Federal Reserve tightness ; and the Bush administration 's -LRB- temporary ? -RRB- defeat in trying to lower the capital-gains tax .
+wsj_2229	7	['26']	and
+================================================================================
+gold_0_pred_1
+If takeover premiums become excessive , if LBO dealmakers become too aggressive , then the private market will recognize these problems more quickly and accurately than will policy makers , and the markets will move with lightning speed to impose appropriate sanctions .
+wsj_2229	31	['0']	If
+================================================================================
+gold_0_pred_1
+If takeover premiums become excessive , if LBO dealmakers become too aggressive , then the private market will recognize these problems more quickly and accurately than will policy makers , and the markets will move with lightning speed to impose appropriate sanctions .
+wsj_2229	31	['6']	if
+================================================================================
+gold_0_pred_1
+If takeover premiums become excessive , if LBO dealmakers become too aggressive , then the private market will recognize these problems more quickly and accurately than will policy makers , and the markets will move with lightning speed to impose appropriate sanctions .
+wsj_2229	31	['13']	then
+================================================================================
+gold_0_pred_1
+The 19-member cabinet is led by Prime Minister Jan Syse , who acknowledged a `` difficult situation '' since the coalition controls only 62 seats in Oslo 's 165-member legislature .
+wsj_2278	32	['18']	since
+================================================================================
+gold_0_pred_1
+Yet on matters close to , er , home ...
+wsj_2227	6	['0']	Yet
+================================================================================
+gold_0_pred_1
+Indirect subsidies , through the FHA , for instance , are little better .
+wsj_2227	16	['7', '8']	for instance
+================================================================================
+gold_0_pred_1
+-LRB- See related story : `` And Bills to Make Wishes Come True '' -- WSJ Oct. 17 , 1989 .
+wsj_2227	35	['6']	And
+================================================================================
+gold_0_pred_1
+So said a federal judge , in a case involving two players for the minor league Bluefield , Va. , Orioles , a Baltimore farm team .
+wsj_2223	7	['0']	So
+================================================================================
+gold_0_pred_1
+Let 's not have one market shut down for 30 minutes when the Dow declines 100 points and another shut down for an hour after a 250-point decline .
+wsj_2222	25	['17']	and
+================================================================================
+gold_0_pred_1
+So it went yesterday in the trading rooms of London 's financial district .
+wsj_2205	8	['0']	So
+================================================================================
+gold_0_pred_1
+`` When it goes , you never know when you 'll get it back , '' he said .
+wsj_2202	44	['8']	when
+================================================================================
+gold_0_pred_1
+Their mission is to keep clients from fleeing the market , as individual investors did in droves after the crash in October
+wsj_2201	2	['11']	as

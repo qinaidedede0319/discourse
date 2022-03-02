@@ -98,3 +98,4 @@ when
 whereas
 while
 yet
+afterwards

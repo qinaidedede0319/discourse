@@ -1,0 +1,8 @@
+================================================================================
+gold_ps_pred_ss
+In addition to a general slowing of the computer industry , NCR , which sells automated teller machines and computerized cash registers , is also affected by the retail and financial sectors , `` areas of the economy that have generally not been robust , '' notes Sanjiv G. Hingorani , an analyst for Salomon Brothers Inc .
+wsj_2203	9	['24']	also
+================================================================================
+gold_ps_pred_ss
+But according to one trader , the programmers `` did n't look as dominant on the upside as on the downside because there was -LCB- also -RCB- a lot of bargain-hunting '' by institutions .
+wsj_2232	32	['25']	also

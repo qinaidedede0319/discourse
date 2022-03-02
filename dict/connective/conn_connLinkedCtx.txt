@@ -1,0 +1,787 @@
+AND|CC-NP-AND
+AS|NNP-NP-AS
+Accordingly|RB-ADVP-Accordingly
+Additionally|RB-ADVP-Additionally
+Afterwards|RB-ADVP-Afterwards
+Afterward|RB-ADVP-Afterward
+After|IN-ADVP-After
+After|IN-PP-After
+After|IN-SBAR-After
+Also|RB-ADJP-Also
+Also|RB-ADVP-Also
+Also|RB-S-Also
+Alternatively|RB-ADVP-Alternatively
+Although|IN-SBAR-Although
+And|CC-ADVP-And
+And|CC-FRAG-And
+And|CC-NP-And
+And|CC-S-And
+And|CC-SBARQ-And
+And|CC-SINV-And
+And|CC-SQ-And
+As a result|PP-S-IN-NP
+As an alternative|PP-S-IN-NP
+As if|SBAR-S-IN-IN-S
+As if|SBAR-S-RB-IN-S
+As long as|ADVP-S-ADVP-PP
+As long as|ADVP-S-ADVP-SBAR
+As soon as|ADVP-S-ADVP-SBAR
+As well|ADVP-ADVP-RB-RB
+As well|ADVP-S-RB-RB
+As|IN-PP-As
+As|IN-S-As
+As|IN-SBAR-As
+As|IN-WHNP-As
+As|RB-ADVP-As
+As|RB-QP-As
+As|RB-S-As
+Because|IN-ADVP-Because
+Because|IN-PP-Because
+Because|IN-S-Because
+Because|IN-SBAR-Because
+Before|IN-ADVP-Before
+Before|IN-PP-Before
+Before|IN-SBAR-Before
+Besides|IN-ADVP-Besides
+Besides|IN-PP-Besides
+Besides|RB-ADVP-Besides
+But|CC-ADVP-But
+But|CC-FRAG-But
+But|CC-NP-But
+But|CC-S-But
+But|CC-SBARQ-But
+But|CC-SINV-But
+But|CC-SQ-But
+By comparison|PP-S-IN-NP
+By contrast|PP-S-IN-NP
+By then|PP-S-IN-ADVP
+By then|PP-S-IN-NP
+Consequently|RB-ADVP-Consequently
+Conversely|RB-ADVP-Conversely
+Earlier|JJR-NP-Earlier
+Earlier|RB-ADVP-Earlier
+Earlier|RB-NP-Earlier
+Earlier|RB-SBAR-Earlier
+Earlier|RBR-ADVP-Earlier
+Earlier|RBR-NP-Earlier
+Either or|S-NULL-NP-NP-VP-.
+Either or|S-SINV-S-*COMMA*-CC-S
+Else|NNP-NP-Else
+Except|IN-PP-Except
+Except|IN-SBAR-Except
+FOR|IN-NP-FOR
+FOR|IN-PP-FOR
+Finally|RB-ADVP-Finally
+For example|PP-S-IN-NP
+For example|PP-SQ-IN-NP
+For instance|PP-S-IN-NP
+For instance|SBAR-NULL-IN-NN-.
+For|IN-ADVP-For
+For|IN-PP-For
+For|IN-S-For
+For|IN-SBAR-For
+For|IN-WHPP-For
+Furthermore|RB-ADVP-Furthermore
+Further|JJ-NP-Further
+Further|RB-ADVP-Further
+Hence|RB-ADJP-Hence
+Hence|RB-ADVP-Hence
+Hence|RB-FRAG-Hence
+However|RB-ADVP-However
+However|WRB-WHADJP-However
+IF|IN-PP-IF
+IF|IN-SBAR-IF
+If then|S-NULL-PP-PRN-NP-VP-.-''
+If then|S-NULL-SBAR-*COMMA*-ADVP-NP-VP-.
+If then|S-NULL-SBAR-*COMMA*-ADVP-NP-VP-.-''
+If then|S-NULL-SBAR-*COMMA*-RB-NP-VP-.-''
+If then|S-NULL-SBAR-*COMMA*-RB-VP-.
+If then|S-NULL-SBAR-*COMMA*-SBAR-*COMMA*-ADVP-S-CC-SINV-*COMMA*-CC-S-.
+If then|S-NULL-``-SBAR-*COMMA*-ADVP-NP-VP-.
+If then|S-NULL-``-SBAR-*COMMA*-ADVP-NP-VP-.-''
+If then|S-NULL-``-SBAR-PRN-ADVP-NP-VP-.-''
+If then|S-S-SBAR-*COMMA*-ADVP-NP-VP
+If then|S-S-SBAR-*COMMA*-SBAR-*COMMA*-ADVP-NP-VP
+If then|S-SINV-SBAR-*COMMA*-ADVP-ADVP-NP-VP
+If then|S-SINV-SBAR-*COMMA*-ADVP-NP-VP
+If then|S-SINV-SBAR-*COMMA*-RB-NP-VP
+If then|S-VP-SBAR-*COMMA*-ADVP-NP-VP
+If then|SBAR-S-IN-S
+If|IN-PP-If
+If|IN-S-If
+If|IN-SBAR-If
+In addition|NONE_TREE
+In addition|PP-FRAG-IN-NP
+In addition|PP-PP-IN-NP
+In addition|PP-S-IN-NP
+In contrast|PP-S-IN-NP
+In fact|PP-S-IN-NP
+In other words|PP-S-IN-NP
+In particular|PP-S-IN-ADJP
+In particular|PP-S-IN-NP
+In short|PP-S-IN-ADJP
+In sum|PP-S-IN-NP
+In the end|PP-S-IN-NP
+In the end|PP-SBARQ-IN-NP
+Indeed|RB-ADVP-Indeed
+Insofar as|S-NULL-CC-SBAR-*COMMA*-NP-VP-.
+Instead|RB-ADVP-Instead
+Instead|RB-PP-Instead
+Later|RB-ADVP-Later
+Later|RB-NP-Later
+Likewise|RB-ADVP-Likewise
+Meantime|RB-ADVP-Meantime
+Meanwhile|RB-ADVP-Meanwhile
+Moreover|RB-ADVP-Moreover
+Neither nor|NP-NP-DT-NP-CC-NP
+Neither nor|NP-S-CC-NP-CC-NP
+Neither nor|S-NULL-CC-NP-VP-.
+Neither nor|S-NULL-PP-*COMMA*-NP-VP-.
+Nevertheless|RB-ADVP-Nevertheless
+Next|IN-S-Next
+Next|JJ-ADVP-Next
+Next|JJ-NP-Next
+Next|JJ-PP-Next
+Next|NNP-NP-Next
+Next|RB-ADVP-Next
+Nonetheless|RB-ADVP-Nonetheless
+Nor|CC-FRAG-Nor
+Nor|CC-S-Nor
+Nor|CC-SINV-Nor
+Nor|CC-SQ-Nor
+Now that|ADVP-S-RB-SBAR
+Now that|S-NULL-ADVP-NP-VP-.
+Now that|SBAR-S-ADVP-IN-S
+ONCE|RB-ADJP-ONCE
+ONCE|VBG-VP-ONCE
+On the contrary|PP-S-IN-NP
+On the other hand|PP-S-IN-NP
+Once|IN-SBAR-Once
+Once|RB-ADVP-Once
+Once|RB-S-Once
+Once|RB-SBAR-Once
+Or|CC-ADVP-Or
+Or|CC-FRAG-Or
+Or|CC-NP-Or
+Or|CC-PP-Or
+Or|CC-S-Or
+Or|CC-SBARQ-Or
+Or|CC-SQ-Or
+Otherwise|RB-ADVP-Otherwise
+Overall|JJ-NP-Overall
+Overall|RB-ADVP-Overall
+Plus|CC-NP-Plus
+Plus|NNP-ADVP-Plus
+Plus|NNP-NP-Plus
+Previously|RB-ADVP-Previously
+Rather|RB-ADVP-Rather
+Rather|RB-CONJP-Rather
+Rather|RB-PP-Rather
+Regardless|RB-ADVP-Regardless
+Separately|RB-ADVP-Separately
+Similarly|RB-ADVP-Similarly
+Since|IN-PP-Since
+Since|IN-SBAR-Since
+So|CC-FRAG-So
+So|CC-S-So
+So|CC-SBARQ-So
+So|IN-ADVP-So
+So|IN-S-So
+So|IN-SBAR-So
+So|NONE_TREE
+So|RB-ADJP-So
+So|RB-ADVP-So
+So|RB-FRAG-So
+So|RB-NP-So
+So|RB-S-So
+So|RB-SBARQ-So
+So|RB-SINV-So
+Specifically|RB-ADVP-Specifically
+Still|RB-ADVP-Still
+Then|RB-ADVP-Then
+Then|RB-NP-Then
+Then|RB-S-Then
+Then|RB-SINV-Then
+Thereafter|RB-ADVP-Thereafter
+Therefore|RB-ADVP-Therefore
+Though|IN-SBAR-Though
+Thus|RB-ADVP-Thus
+Thus|RB-S-Thus
+Till|IN-PP-Till
+Ultimately|RB-ADVP-Ultimately
+Unless|IN-S-Unless
+Unless|IN-SBAR-Unless
+Until|IN-PP-Until
+Until|IN-SBAR-Until
+WHEN|WRB-WHADVP-WHEN
+When and if|SBAR-S-SBAR-CC-SBAR
+When|NONE_TREE
+When|WRB-WHADVP-When
+When|WRB-WHNP-When
+Whereas|NNS-NP-Whereas
+While|IN-PP-While
+While|IN-SBAR-While
+Yet|CC-S-Yet
+Yet|RB-ADVP-Yet
+Yet|RB-FRAG-Yet
+Yet|RB-S-Yet
+accordingly|RB-ADVP-accordingly
+accordingly|RB-NP-accordingly
+additionally|RB-ADVP-additionally
+afterwards|RB-ADVP-afterwards
+afterwards|VBD-VP-afterwards
+afterward|RB-ADVP-afterward
+after|IN-ADVP-after
+after|IN-NP-after
+after|IN-PP-after
+after|IN-SBAR-after
+after|IN-WHPP-after
+after|RB-NP-after
+also|NONE_TREE
+also|RB-ADJP-also
+also|RB-ADVP-also
+also|RB-CONJP-also
+also|RB-NP-also
+alternatively|RB-ADVP-alternatively
+although|IN-PP-although
+although|IN-S-although
+although|IN-SBAR-although
+and|CC-ADJP-and
+and|CC-ADVP-and
+and|CC-CONJP-and
+and|CC-FRAG-and
+and|CC-NAC-and
+and|CC-NP-and
+and|CC-NX-and
+and|CC-PP-and
+and|CC-PRN-and
+and|CC-PRT-and
+and|CC-QP-and
+and|CC-S-and
+and|CC-SBAR-and
+and|CC-SBARQ-and
+and|CC-SINV-and
+and|CC-UCP-and
+and|CC-VP-and
+and|CC-WHADJP-and
+and|CC-WHADVP-and
+and|CC-WHNP-and
+and|NNP-NP-and
+and|NONE_TREE
+as a result|PP-ADJP-IN-NP
+as a result|PP-ADVP-IN-NP
+as a result|PP-NP-IN-NP
+as a result|PP-PP-IN-NP
+as a result|PP-PRN-IN-NP
+as a result|PP-S-IN-NP
+as a result|PP-VP-ADVP-IN-NP
+as a result|PP-VP-ADVP-IN-NP-*COMMA*-CC-ADVP-PP
+as a result|PP-VP-IN-NP
+as a result|PP-VP-RB-IN-NP
+as an alternative|PP-VP-IN-NP
+as if|SBAR-S-IN-IN-S
+as if|SBAR-VP-IN-IN-S
+as long as|ADJP-NP-ADJP-SBAR
+as long as|ADVP-S-ADVP-SBAR
+as long as|ADVP-VP-ADVP-PP
+as long as|ADVP-VP-ADVP-SBAR
+as long as|CONJP-NP-RB-RB-IN
+as long as|QP-NP-RB-JJ-IN-CD
+as long as|QP-NP-RB-JJ-IN-CD-CC-CD
+as soon as|ADVP-NP-ADVP-PP
+as soon as|ADVP-S-ADVP-SBAR
+as soon as|ADVP-S-RB-RB-SBAR
+as soon as|ADVP-VP-ADVP-PP
+as soon as|ADVP-VP-ADVP-SBAR
+as soon as|CONJP-VP-RB-RB-IN
+as soon as|SBAR-VP-RB-IN-FRAG
+as soon as|SBAR-VP-RB-RB-IN-S
+as though|SBAR-ADJP-IN-IN-S
+as though|SBAR-VP-IN-IN-S
+as well|ADJP-NP-RB-RB-RB
+as well|ADVP-ADJP-RB-RB
+as well|ADVP-ADVP-RB-RB
+as well|ADVP-NP-RB-RB
+as well|ADVP-S-RB-RB
+as well|ADVP-VP-IN-RB
+as well|ADVP-VP-RB-RB
+as well|ADVP-VP-RB-RB-PP-PP
+as well|ADVP-VP-RB-RB-RB
+as well|CONJP-ADJP-RB-RB-IN
+as well|CONJP-FRAG-RB-RB-IN
+as well|CONJP-NP-RB-RB-IN
+as well|CONJP-PP-RB-RB-IN
+as well|CONJP-PRN-RB-RB-IN
+as well|CONJP-VP-RB-RB-IN
+as well|PP-PRN-RB-RB-IN-NP
+as well|PP-VP-RB-RB-IN-NP
+as well|SBAR-ADJP-RB-RB-SBAR
+as|IN-ADJP-as
+as|IN-ADVP-as
+as|IN-CONJP-as
+as|IN-NP-as
+as|IN-PP-as
+as|IN-QP-as
+as|IN-SBAR-as
+as|NONE_TREE
+as|RB-ADJP-as
+as|RB-ADVP-as
+as|RB-CONJP-as
+as|RB-NP-as
+as|RB-PP-as
+as|RB-QP-as
+as|RB-SBAR-as
+as|RB-VP-as
+because|IN-PP-because
+because|IN-SBAR-because
+because|NONE_TREE
+because|RB-ADVP-because
+because|RB-PP-because
+because|RB-SBAR-because
+before and after|PP-S-DT-IN-CC-PP
+before and after|PP-VP-IN-CC-IN-NP
+before|IN-ADJP-before
+before|IN-ADVP-before
+before|IN-PP-before
+before|IN-S-before
+before|IN-SBAR-before
+before|IN-UCP-before
+before|RB-ADVP-before
+before|RB-FRAG-before
+before|RB-NP-before
+before|RB-PP-before
+before|RB-QP-before
+before|RB-SBAR-before
+besides|IN-PP-besides
+but|CC-ADJP-but
+but|CC-ADVP-but
+but|CC-CONJP-but
+but|CC-FRAG-but
+but|CC-NP-but
+but|CC-NX-but
+but|CC-PP-but
+but|CC-PRN-but
+but|CC-QP-but
+but|CC-S-but
+but|CC-SBAR-but
+but|CC-UCP-but
+but|CC-VP-but
+but|IN-ADJP-but
+but|IN-PP-but
+but|NONE_TREE
+but|RB-PP-but
+by comparison|PP-S-IN-NP
+by comparison|PP-VP-IN-NP
+by contrast|PP-S-IN-NP
+by then|ADVP-S-IN-RB
+by then|PP-NP-IN-NP
+by then|PP-S-IN-ADVP
+by then|PP-S-IN-NP
+by then|PP-VP-IN-NP
+consequently|RB-ADVP-consequently
+consequently|RB-S-consequently
+earlier|JJ-NP-earlier
+earlier|JJR-ADJP-earlier
+earlier|JJR-NP-earlier
+earlier|RB-ADVP-earlier
+earlier|RB-NP-earlier
+earlier|RBR-ADVP-earlier
+earlier|RBR-NP-earlier
+either or|ADJP-NP-CC-JJ-CC-JJ
+either or|ADJP-NP-CC-JJ-CC-VBG
+either or|ADJP-NP-DT-JJ-CC-JJ
+either or|ADJP-VP-CC-JJ-CC-JJ-PP
+either or|ADJP-VP-CC-JJ-CC-RB
+either or|ADJP-VP-CC-RB-JJ-CC-RB-JJ
+either or|ADJP-VP-RB-ADJP-CC-JJ-S
+either or|ADVP-NP-RB-NP-PP
+either or|ADVP-VP-RB-PP
+either or|FRAG-PRN-NP-*COLON*-S-*COMMA*-CC-ADVP-*COMMA*-PP-.-''
+either or|NP-NP-CC-NP-CC-NP
+either or|NP-NP-DT-NP-CC-NP
+either or|NP-NP-RB-DT-ADJP-NN
+either or|NP-PP-CC-CD-CC-CD
+either or|NP-PP-CC-CD-CC-NP
+either or|NP-PP-CC-DT-ADJP-NN
+either or|NP-PP-CC-DT-NNP-CC-NNP-NNS
+either or|NP-PP-CC-NP-CC-NP
+either or|NP-PP-DT-CD-QP
+either or|NP-PP-DT-NN-CC-NN
+either or|NP-PP-DT-NN-CC-NN-NNS
+either or|NP-PP-DT-NP-CC-NP
+either or|NP-S-CC-NP-CC-NP
+either or|NP-VP-CC-NP-*COMMA*-NP-*COMMA*-CC-NP
+either or|NP-VP-CC-NP-CC-NP
+either or|NP-VP-DT-NN-CC-NN
+either or|NP-VP-DT-NP-*COMMA*-CC-NP
+either or|NP-VP-DT-NP-CC-NP
+either or|PP-NP-CC-PP-CC-PP
+either or|PP-VP-CC-PP-*COMMA*-CC-PP
+either or|PP-VP-CC-PP-*COMMA*-PP
+either or|PP-VP-CC-PP-CC-PP
+either or|PP-VP-CC-PP-CC-RB-PP
+either or|PP-VP-DT-PP-CC-*COMMA*-PP
+either or|PP-VP-DT-PP-CC-PP
+either or|PP-VP-DT-PP-PP-*COMMA*-PP-CC-PP
+either or|PP-VP-PP-*COMMA*-CC-PP
+either or|S-NULL-NP-ADVP-VP-.
+either or|S-NULL-S-*COMMA*-NP-VP-.
+either or|S-S-CC-NP-VP
+either or|S-SBAR-DT-VP
+either or|S-SBAR-NP-ADVP-VP
+either or|UCP-NP-DT-ADVP-CC-ADVP
+either or|UCP-VP-CC-ADJP-CC-PP
+either or|UCP-VP-RB-ADJP-CC-NP
+either or|UCP-VP-RB-ADJP-CC-PP
+either or|VP-NP-VBN-ADVP-PP
+either or|VP-NP-VP-*COMMA*-CC-VP
+either or|VP-S-ADVP-VP-CC-VP
+either or|VP-S-CC-VP-*COLON*-CC-ADVP-VP
+either or|VP-S-CC-VP-*COMMA*-CC-VP-PP
+either or|VP-S-CC-VP-CC-VP
+either or|VP-S-MD-ADVP-VP
+either or|VP-S-MD-RB-VP
+either or|VP-S-VBD-ADJP-PP-PP-NP
+either or|VP-S-VBP-ADVP-VP
+either or|VP-S-VBP-RB-ADJP-PP-*COMMA*-ADVP-*COMMA*-PP
+either or|VP-S-VP-CC-ADVP-VP
+either or|VP-S-VP-CC-NP
+either or|VP-S-VP-CC-VP
+either or|VP-VP-CC-VP-CC-VP
+either or|VP-VP-RB-VP-*COMMA*-CC-VP
+either or|VP-VP-VBN-ADVP-PP
+else|JJ-ADJP-else
+else|JJ-NP-else
+else|RB-ADJP-else
+else|RB-ADVP-else
+else|RB-NP-else
+else|RB-S-else
+else|RB-WHNP-else
+except|IN-ADVP-except
+except|IN-NP-except
+except|IN-PP-except
+except|IN-SBAR-except
+finally|RB-ADVP-finally
+finally|RB-PP-finally
+for example|PP-NP-IN-NP
+for example|PP-PRN-IN-NP
+for example|PP-S-IN-NP
+for example|PP-VP-IN-NP
+for instance|PP-NP-IN-NP
+for instance|PP-PRN-IN-NP
+for instance|PP-S-IN-NP
+for instance|PP-VP-IN-NP
+for|IN-ADVP-for
+for|IN-PP-for
+for|IN-QP-for
+for|IN-SBAR-for
+for|IN-VP-for
+for|IN-WHPP-for
+for|RP-PRT-for
+furthermore|RB-ADVP-furthermore
+further|JJ-NP-further
+further|RB-ADVP-further
+further|RB-VP-further
+further|RBR-ADJP-further
+further|RBR-ADVP-further
+further|RBR-QP-further
+further|RBR-VP-further
+further|VB-VP-further
+hence|RB-ADJP-hence
+hence|RB-ADVP-hence
+hence|RB-NP-hence
+hence|VB-VP-hence
+hence|VBG-VP-hence
+however|RB-ADJP-however
+however|RB-ADVP-however
+if and when|UCP-VP-``-ADJP-ADVP-CC-SBAR
+if then|S-NULL-CC-SBAR-*COMMA*-ADVP-NP-VP-.
+if then|S-NULL-PP-*COMMA*-SBAR-*COMMA*-ADVP-NP-VP-.
+if then|S-NULL-PP-*COMMA*-SBAR-*COMMA*-RB-NP-VP-.
+if then|S-NULL-SBAR-*COMMA*-SBAR-*COMMA*-ADVP-S-CC-SINV-*COMMA*-CC-S-.
+if then|S-NULL-``-ADVP-*COMMA*-SBAR-ADVP-S-.
+if then|S-NULL-``-CC-SBAR-*COMMA*-ADVP-NP-VP-.-''
+if then|S-S-SBAR-*COLON*-SBAR-*COLON*-ADVP-NP-VP
+if then|S-S-SBAR-*COMMA*-SBAR-*COMMA*-ADVP-NP-VP
+if then|SBAR-S-IN-S
+if then|SBAR-VP-IN-FRAG
+if then|SBAR-VP-IN-S
+if|IN-ADJP-if
+if|IN-ADVP-if
+if|IN-CONJP-if
+if|IN-FRAG-if
+if|IN-PP-if
+if|IN-PRN-if
+if|IN-SBAR-if
+if|IN-WHNP-if
+in addition|PP-NP-IN-NP
+in addition|PP-S-IN-NP
+in addition|PP-VP-IN-NP
+in contrast|PP-S-IN-NP
+in contrast|PP-VP-IN-NP
+in fact|PP-NP-IN-NP
+in fact|PP-PRN-IN-NP
+in fact|PP-S-IN-NP
+in fact|PP-VP-IN-NP
+in other words|PP-S-IN-NP
+in other words|PP-VP-IN-NP
+in particular|PP-NP-IN-ADJP
+in particular|PP-NP-IN-NP
+in particular|PP-PP-IN-S
+in particular|PP-S-IN-ADJP
+in particular|PP-S-IN-NP
+in particular|PP-VP-IN-NP
+in short|PP-NP-IN-NP
+in short|PP-S-IN-NP
+in short|PP-VP-IN-NP
+in the end|PP-FRAG-IN-NP
+in the end|PP-NP-IN-NP
+in the end|PP-PRN-IN-NP
+in the end|PP-S-IN-NP
+in the end|PP-VP-IN-NP
+in turn|PP-NP-IN-NP
+in turn|PP-PRN-IN-NP
+in turn|PP-S-IN-NP
+in turn|PP-VP-IN-NP
+indeed|RB-ADVP-indeed
+indeed|RB-NP-indeed
+indeed|RB-PP-indeed
+indeed|RB-S-indeed
+insofar as|VP-S-VBZ-PP-SBAR
+instead|RB-ADVP-instead
+instead|RB-CONJP-instead
+instead|RB-PP-instead
+instead|RB-S-instead
+instead|RB-VP-instead
+later|JJ-NP-later
+later|RB-ADJP-later
+later|RB-ADVP-later
+later|RB-NP-later
+later|RB-QP-later
+later|RB-S-later
+later|RB-SBAR-later
+later|RB-VP-later
+later|RBR-ADVP-later
+later|RBR-NP-later
+lest|IN-SBAR-lest
+likewise|RB-ADVP-likewise
+meantime|NN-NP-meantime
+meantime|RB-ADVP-meantime
+meanwhile|NN-NP-meanwhile
+meanwhile|RB-ADVP-meanwhile
+moreover|RB-ADVP-moreover
+much as|ADVP-ADVP-RB-RB-PP
+much as|ADVP-S-ADVP-SBAR
+much as|ADVP-VP-ADVP-PP
+much as|ADVP-VP-ADVP-SBAR
+much as|CONJP-NP-RB-RB-IN
+much as|CONJP-VP-RB-RB-IN
+much as|NP-PP-NP-PP
+much as|NP-VP-NP-PP
+much as|QP-ADJP-RB-JJ-IN-CD
+much as|QP-NP-RB-JJ-IN-#-CD-CD
+much as|QP-NP-RB-JJ-IN-$-CD
+much as|QP-NP-RB-JJ-IN-$-CD-CD
+much as|QP-NP-RB-JJ-IN-CD
+much as|QP-NP-RB-JJ-IN-CD-CD
+much as|QP-NP-RB-JJ-IN-CD-TO-CD
+much as|QP-NP-RB-JJ-IN-DT-CD-CD
+much as|QP-NP-RB-JJ-IN-NN
+much as|QP-NP-RB-JJ-IN-RB
+much as|QP-SBAR-RB-JJ-IN-CD-NNS
+much as|SBAR-VP-RB-IN-S
+much as|VP-S-ADVP-VBP-NP-PP
+neither nor|ADJP-NP-DT-JJ-CC-JJ
+neither nor|ADJP-UCP-DT-JJ-CC-JJ
+neither nor|ADJP-VP-DT-JJ-CC-ADJP
+neither nor|ADJP-VP-DT-JJ-CC-JJ
+neither nor|NP-NP-DT-NN-CC-NN
+neither nor|NP-NP-DT-NP-CC-NP
+neither nor|NP-S-CC-NP-CC-NP
+neither nor|NP-S-DT-NNP-NNP-CC-NNP
+neither nor|NP-S-DT-NP-CC-NP
+neither nor|NP-S-NP-PRN
+neither nor|NP-VP-CC-NP-CC-NP
+neither nor|VP-S-CC-VP-CC-VP
+neither nor|VP-S-MD-DT-VP
+neither nor|VP-S-VBZ-CC-ADJP
+neither nor|VP-S-VP-*COMMA*-CC-VP
+neither nor|VP-S-VP-CC-VP
+neither nor|VP-VP-DT-VP-CC-PRN-VP
+neither nor|VP-VP-DT-VP-CC-VP
+nevertheless|RB-ADJP-nevertheless
+nevertheless|RB-ADVP-nevertheless
+next|IN-ADVP-next
+next|IN-NP-next
+next|IN-PP-next
+next|JJ-ADJP-next
+next|JJ-ADVP-next
+next|JJ-NP-next
+next|JJ-QP-next
+next|NONE_TREE
+next|RB-ADVP-next
+nonetheless|RB-ADJP-nonetheless
+nonetheless|RB-ADVP-nonetheless
+nor|CC-ADJP-nor
+nor|CC-NP-nor
+nor|CC-S-nor
+nor|CC-UCP-nor
+nor|CC-VP-nor
+now that|ADVP-S-RB-SBAR
+now that|ADVP-SQ-RB-SBAR
+now that|ADVP-VP-RB-SBAR
+now that|S-SBAR-ADVP-NP-VP
+now that|SBAR-S-RB-IN-S
+now that|SBAR-VP-ADVP-IN-S
+now that|SBAR-VP-RB-IN-S
+now that|VP-S-VBZ-ADJP-ADVP-SBAR
+on the other hand|PP-PRN-IN-NP
+on the other hand|PP-S-IN-NP
+once|IN-PP-once
+once|IN-SBAR-once
+once|RB-ADJP-once
+once|RB-ADVP-once
+once|RB-NP-once
+once|RB-PP-once
+once|RB-QP-once
+once|RB-SBAR-once
+once|RB-VP-once
+or|CC-ADJP-or
+or|CC-ADVP-or
+or|CC-FRAG-or
+or|CC-INTJ-or
+or|CC-NP-or
+or|CC-NX-or
+or|CC-PP-or
+or|CC-PRN-or
+or|CC-QP-or
+or|CC-S-or
+or|CC-SBAR-or
+or|CC-SQ-or
+or|CC-UCP-or
+or|CC-VP-or
+or|CC-WHADVP-or
+otherwise|RB-ADJP-otherwise
+otherwise|RB-ADVP-otherwise
+otherwise|RB-NP-otherwise
+otherwise|RB-VP-otherwise
+overall|JJ-ADJP-overall
+overall|JJ-NP-overall
+overall|RB-ADVP-overall
+plus|CC-NP-plus
+plus|CC-PP-plus
+plus|CC-PRN-plus
+plus|CC-QP-plus
+plus|CC-S-plus
+plus|IN-NP-plus
+plus|IN-PP-plus
+plus|NN-NP-plus
+plus|NNS-NP-plus
+previously|RB-ADJP-previously
+previously|RB-ADVP-previously
+previously|RB-NP-previously
+rather|RB-ADJP-rather
+rather|RB-ADVP-rather
+rather|RB-CONJP-rather
+rather|RB-NP-rather
+rather|RB-PP-rather
+rather|RB-PRN-rather
+rather|RB-SBAR-rather
+rather|RB-VP-rather
+regardless|RB-ADVP-regardless
+separately|RB-ADJP-separately
+separately|RB-ADVP-separately
+similarly|RB-ADJP-similarly
+similarly|RB-ADVP-similarly
+simultaneously|RB-ADVP-simultaneously
+simultaneously|RB-CONJP-simultaneously
+simultaneously|RB-PP-simultaneously
+since|IN-ADVP-since
+since|IN-PP-since
+since|IN-PRN-since
+since|IN-SBAR-since
+since|RB-ADVP-since
+so that|ADVP-VP-ADVP-SBAR
+so that|NP-PP-NP-SBAR
+so that|SBAR-ADVP-IN-IN-S
+so that|SBAR-VP-IN-IN-S
+so that|SBAR-VP-RB-IN-S
+so|IN-ADVP-so
+so|IN-NP-so
+so|IN-PP-so
+so|IN-S-so
+so|IN-SBAR-so
+so|NONE_TREE
+so|RB-ADJP-so
+so|RB-ADVP-so
+so|RB-FRAG-so
+so|RB-NP-so
+so|RB-PP-so
+so|RB-QP-so
+so|RB-S-so
+so|RB-SBAR-so
+so|RB-SINV-so
+so|RB-UCP-so
+so|RB-VP-so
+specifically|RB-ADJP-specifically
+specifically|RB-ADVP-specifically
+still|RB-ADJP-still
+still|RB-ADVP-still
+still|RB-CONJP-still
+still|RB-NP-still
+then|RB-ADJP-then
+then|RB-ADVP-then
+then|RB-FRAG-then
+then|RB-NP-then
+then|RB-PP-then
+then|RB-QP-then
+then|RB-S-then
+then|RB-SBAR-then
+then|RB-VP-then
+thereafter|RB-ADVP-thereafter
+thereafter|RB-NP-thereafter
+thereby|RB-ADVP-thereby
+thereby|RB-VP-thereby
+therefore|RB-ADJP-therefore
+therefore|RB-ADVP-therefore
+though|IN-ADJP-though
+though|IN-ADVP-though
+though|IN-CONJP-though
+though|IN-FRAG-though
+though|IN-NP-though
+though|IN-PP-though
+though|IN-S-though
+though|IN-SBAR-though
+though|IN-VP-though
+though|RB-ADVP-though
+though|RB-SBAR-though
+thus|RB-ADVP-thus
+thus|RB-NP-thus
+thus|RB-S-thus
+thus|RB-VP-thus
+till|IN-PP-till
+till|IN-SBAR-till
+ultimately|RB-ADJP-ultimately
+ultimately|RB-ADVP-ultimately
+unless|IN-ADVP-unless
+unless|IN-SBAR-unless
+until|IN-ADVP-until
+until|IN-PP-until
+until|IN-SBAR-until
+when|NONE_TREE
+when|WRB-WHADVP-when
+whereas|IN-SBAR-whereas
+while|IN-PP-while
+while|IN-SBAR-while
+while|NN-NP-while
+yet|CC-ADJP-yet
+yet|CC-S-yet
+yet|CC-SBAR-yet
+yet|CC-VP-yet
+yet|RB-ADJP-yet
+yet|RB-ADVP-yet
+yet|RB-FRAG-yet
+yet|RB-NP-yet
+yet|RB-PP-yet
+yet|RB-VP-yet
+yet|RB-WHADJP-yet
